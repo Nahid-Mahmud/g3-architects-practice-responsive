@@ -1,5 +1,20 @@
+/* Shared styles */
+
 * {
   font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+  width: 11.25rem;
+  border-radius: 0.5rem;
+  background: #ff900e;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 1.25rem;
+  margin-bottom: 3.12rem;
+  border: none;
+  cursor: pointer;
 }
 /* Header section  */
 header {
@@ -33,7 +48,7 @@ nav {
 /* bannersection  */
 .banner {
   text-align: center;
-  padding: 0 15rem;
+  padding: 1.5rem 15rem;
 }
 .banner-content {
   max-width: 53.875rem;
@@ -51,20 +66,53 @@ nav {
   line-height: 1.625rem;
 }
 .banner-image {
-width: 100%;
+  width: 100%;
 }
-.btn-primary {
-  width: 11.25rem;
-  border-radius: 0.5rem;
-  background: #ff900e;
-  color: #fff;
-  font-size: 1.25rem;
-  font-weight: 600;
-  padding: 1.25rem;
-  margin-bottom: 3.12rem;
-  border: none;
-  cursor: pointer;
+/* Header section  ends */
+
+/* main section  */
+main {
+  max-width: 90rem;
+  padding: 8rem 0;
+  margin: auto;
 }
+
+/* features section starts */
+.features {
+  display: flex;
+  align-items: center;
+}
+.features-image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.features-content {
+  padding: 0 4.75rem;
+}
+.features-heading {
+  max-width: 29.25rem;
+  color: #727272;
+  font-size: 2.8125rem;
+  font-weight: 500;
+}
+.features-span-1 {
+  color: #131313;
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+.features-span-2 {
+  color: #ff900e;
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+.features-description {
+  max-width: 33.5625rem;
+  color: #727272;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+/* Features section ends */
 
 /* Responsive codes  */
 
@@ -84,8 +132,8 @@ width: 100%;
   }
 
   /* banner section  */
-  .banner{
-    padding: 1rem;
+  .banner {
+    padding: 1rem 1rem;
   }
   .banner-heading {
     font-size: 1.5rem;
@@ -102,8 +150,8 @@ width: 100%;
     text-align: center;
   }
   /* banner section  */
-  .banner{
-    padding: 1.5rem;
+  .banner {
+    padding: 1rem 2rem;
   }
   .banner-heading {
     font-size: 1.5rem;
@@ -120,8 +168,8 @@ width: 100%;
     text-align: center;
   }
   /* banner section */
-  .banner{
-    padding: 2rem;
+  .banner {
+    padding: 1rem 2rem;
   }
   .banner-heading {
     font-size: 2rem;
