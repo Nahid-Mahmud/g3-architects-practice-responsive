@@ -30,11 +30,50 @@ nav {
   line-height: 1.625rem;
 }
 
+/* bannersection  */
+.banner {
+  text-align: center;
+}
+.banner-content {
+  max-width: 53.875rem;
+  margin: auto;
+}
+.banner-heading {
+  color: #131313;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-description {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+.banner-image {
+  width: 100%;
+}
+.btn-primary {
+  width: 11.25rem;
+  border-radius: 0.5rem;
+  background: #ff900e;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 1.25rem;
+  margin-bottom: 3.12rem;
+  border: none;
+  cursor: pointer;
+}
+
 /* Responsive codes  */
 
 /* Mobile  */
 
 @media screen and (max-width: 576px) {
+  header {
+    padding: 1rem;
+  }
+  /* nav section  */
   nav {
     flex-direction: column;
     padding: 0 1rem;
@@ -42,29 +81,39 @@ nav {
   .nav-heading {
     text-align: center;
   }
+
+  /* banner section  */
+  .banner-heading {
+    font-size: 1.5rem;
+  }
 }
 
 /* tablet */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    nav {
-        flex-direction: column;
-        padding: 0 1rem;
-      }
-      .nav-heading {
-        text-align: center;
-      }
-
+  nav {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .nav-heading {
+    text-align: center;
+  }
+  /* banner section  */
+  .banner-heading {
+    font-size: 1.5rem;
+  }
 }
 
 /* laptop and desktop */
-@media screen and (min-width: 992px) and (max-width: 1220px){
-    nav {
-        flex-direction: column;
-        padding: 0 1rem;
-      }
-      .nav-heading {
-        text-align: center;
-      }
-
-      
+@media screen and (min-width: 992px) and (max-width: 1220px) {
+  nav {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .nav-heading {
+    text-align: center;
+  }
+  /* banner section */
+  .banner-heading {
+    font-size: 2rem;
+  }
 }
