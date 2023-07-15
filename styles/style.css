@@ -81,11 +81,15 @@ main {
 .features {
   display: flex;
   align-items: center;
+  padding-bottom: 8rem;
 }
 .features-image-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
+}
+.features-image-container img {
+  width: 100%;
 }
 .features-content {
   padding: 0 4.75rem;
@@ -112,6 +116,7 @@ main {
   font-size: 1rem;
   line-height: 1.625rem;
 }
+
 /* Features section ends */
 
 /* Responsive codes  */
@@ -138,9 +143,20 @@ main {
   .banner-heading {
     font-size: 1.5rem;
   }
+  /* main section  */
+
+  /* features section */
+
+  .features {
+    flex-direction: column;
+  }
+  .features-image-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* tablet */
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
   nav {
     flex-direction: column;
@@ -155,6 +171,14 @@ main {
   }
   .banner-heading {
     font-size: 1.5rem;
+  }
+  /* features section */
+
+  .features {
+    flex-direction: column;
+  }
+  .features-image-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -173,5 +197,11 @@ main {
   }
   .banner-heading {
     font-size: 2rem;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .features-image-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
