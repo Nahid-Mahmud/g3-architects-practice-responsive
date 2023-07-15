@@ -33,6 +33,7 @@ nav {
 /* bannersection  */
 .banner {
   text-align: center;
+  padding: 0 15rem;
 }
 .banner-content {
   max-width: 53.875rem;
@@ -50,7 +51,7 @@ nav {
   line-height: 1.625rem;
 }
 .banner-image {
-  width: 100%;
+width: 100%;
 }
 .btn-primary {
   width: 11.25rem;
@@ -83,6 +84,9 @@ nav {
   }
 
   /* banner section  */
+  .banner{
+    padding: 1rem;
+  }
   .banner-heading {
     font-size: 1.5rem;
   }
@@ -98,6 +102,9 @@ nav {
     text-align: center;
   }
   /* banner section  */
+  .banner{
+    padding: 1.5rem;
+  }
   .banner-heading {
     font-size: 1.5rem;
   }
@@ -113,6 +120,9 @@ nav {
     text-align: center;
   }
   /* banner section */
+  .banner{
+    padding: 2rem;
+  }
   .banner-heading {
     font-size: 2rem;
   }
