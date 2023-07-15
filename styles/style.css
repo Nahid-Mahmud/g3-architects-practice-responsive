@@ -1,48 +1,70 @@
 * {
   font-family: "Work Sans", sans-serif;
 }
-/* Header section */
+/* Header section  */
 header {
   background: rgba(255, 144, 14, 0.1);
 }
-/* nav section  */
-
 nav {
-  padding: 0rem 14.25rem;
   display: flex;
-  justify-content: space-around;
+  padding: 3rem 15rem;
+  justify-content: space-between;
   align-items: center;
 }
 
-nav > ul {
-  display: flex;
+.nav-list {
   list-style: none;
-}
-nav li > a {
-  color: #424242;
-  font-size: 1.125rem;
-  font-weight: 500;
-  text-decoration: none;
+  display: flex;
 }
 .nav-heading {
   color: #131313;
   font-size: 2.8125rem;
   font-weight: 700;
 }
-.list-container li {
-  margin-right: 3rem;
+.list-items > a {
+  text-decoration: none;
+  margin-right: 2rem;
+  color: #424242;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.625rem;
 }
 
+/* Responsive codes  */
 
+/* Mobile  */
 
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .nav-heading {
+    text-align: center;
+  }
+}
 
+/* tablet */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    nav {
+        flex-direction: column;
+        padding: 0 1rem;
+      }
+      .nav-heading {
+        text-align: center;
+      }
 
-/* responsive styles */
+}
 
+/* laptop and desktop */
+@media screen and (min-width: 992px) and (max-width: 1220px){
+    nav {
+        flex-direction: column;
+        padding: 0 1rem;
+      }
+      .nav-heading {
+        text-align: center;
+      }
 
-/* small screen  */
-
-
-
-
-/* Medium screen */
+      
+}
