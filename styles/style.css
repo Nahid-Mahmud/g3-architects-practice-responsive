@@ -127,7 +127,9 @@ main {
 /* Features section ends */
 
 /* fact section  */
-
+.facts-text-container{
+  margin-left: 1rem;
+}
 .facts-heading {
   color: #131313;
   font-size: 2.8125rem;
@@ -164,6 +166,27 @@ main {
 
 /* fact section ends  */
 
+/* sponsor secton  */
+.sponsor-text {
+  text-align: center;
+}
+.sponsors-title {
+  color: #131313;
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+.sponsors-description {
+  max-width: 33.875rem;
+  margin: auto;
+}
+.sponsors-irem-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.12rem;
+}
+
+/*  sponsor secton ends*/
+
 /* main section ends  */
 
 /* Responsive codes  */
@@ -196,9 +219,32 @@ main {
 
   .features {
     flex-direction: column;
+    padding-bottom: 1rem;
   }
   .features-image-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* facts section  */
+
+  .facts-item-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .facts-description {
+    margin-bottom: 2rem;
+  }
+  /* facts section  */
+
+  /* sponsor section  */
+  .sponsors-irem-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .sponsor-items0-image {
+    padding: 20px;
+    width: 50%;
+    margin: auto;
   }
 }
 
@@ -223,9 +269,29 @@ main {
 
   .features {
     flex-direction: column;
+    padding-bottom: 1rem;
   }
   .features-image-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  /* facts section  */
+
+  .facts-item-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .facts-description {
+    margin-bottom: 2rem;
+  }
+  /* sponsor section  */
+  .sponsors-irem-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .sponsor-items0-image {
+    padding: 20px;
+    width: 50%;
+    margin: auto;
   }
 }
 
@@ -247,8 +313,29 @@ main {
   }
   .features {
     flex-direction: column;
+    padding-bottom: 2rem;
   }
   .features-image-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  /* facts section  */
+
+  .facts-item-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .facts-description {
+    margin-bottom: 2rem;
+  }
+  /* sponsor section  */
+  .sponsors-irem-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .sponsor-items0-image {
+    padding: 20px;
+    width: 50%;
+    margin: auto;
   }
 }
