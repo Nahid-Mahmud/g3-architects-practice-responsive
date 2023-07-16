@@ -126,8 +126,73 @@ main {
 
 /* Features section ends */
 
+/* love-feaaures-card secion   */
+.love-features-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.love-features-card-title {
+  color: #131313;
+  font-size: 2.8125rem;
+  font-weight: 700;
+  max-width: 29.25rem;
+  border-left: 0.35rem solid #ff900e;
+  padding-left: 1.31rem;
+}
+.love-features-card-description {
+  max-width: 29.25rem;
+  margin-bottom: 2rem;
+}
+.love-features-card-items {
+  max-width: 36.625rem;
+  min-height: 10.6875rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+}
+.card-title {
+  color: #131313;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.card-description {
+  max-width: 32.125rem;
+  color: #727272;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+.ten-years-badge {
+  max-width: 21.375rem;
+  max-height: 12.5rem;
+  border-radius: 0.5rem;
+  background: #ff900e;
+  padding: 1rem;
+  position: relative;
+  bottom: 8.5rem;
+  right: 8rem;
+}
+.ten-years-badge h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.0625rem;
+  font-weight: 700;
+  line-height: 2.375rem;
+
+}
+.ten-years-badge p {
+  color: #fff;
+  font-size: 1.5625rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  text-align: center;
+}
+/* love-feaaures-card secion   ends*/
+
 /* fact section  */
-.facts-text-container{
+.facts-text-container {
   margin-left: 1rem;
 }
 .facts-heading {
@@ -296,7 +361,7 @@ main {
 }
 
 /* laptop and desktop */
-@media screen and (min-width: 992px) and (max-width: 1220px) {
+@media screen and (min-width: 992px) and (max-width: 12   px) {
   nav {
     flex-direction: column;
     padding: 0 1rem;
