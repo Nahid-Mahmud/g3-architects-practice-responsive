@@ -16,6 +16,13 @@
   border: none;
   cursor: pointer;
 }
+
+.shared-description-text {
+  color: #727272;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
 /* Header section  */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -118,6 +125,46 @@ main {
 }
 
 /* Features section ends */
+
+/* fact section  */
+
+.facts-heading {
+  color: #131313;
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+
+.facts-description {
+  max-width: 33.875rem;
+  margin-bottom: 9.12rem;
+}
+
+.facts-item-container {
+  display: flex;
+  justify-content: space-around;
+}
+.facts-item {
+  min-width: 15.11444rem;
+  max-height: 15.11444rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 0.6rem;
+}
+.facts-number {
+  color: #424242;
+  font-size: 2.8125rem;
+  font-weight: 600;
+}
+.fact-name {
+  color: #727272;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* fact section ends  */
+
+/* main section ends  */
 
 /* Responsive codes  */
 
