@@ -180,7 +180,6 @@ main {
   font-size: 2.0625rem;
   font-weight: 700;
   line-height: 2.375rem;
-
 }
 .ten-years-badge p {
   color: #fff;
@@ -311,6 +310,19 @@ main {
     width: 50%;
     margin: auto;
   }
+
+  /* Features you will love & enjoy */
+  .love-features-card {
+    flex-direction: column;
+  }
+  .love-features-card-image {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .ten-years-badge {
+    position: static;
+    margin: auto;
+  }
 }
 
 /* tablet */
@@ -358,10 +370,22 @@ main {
     width: 50%;
     margin: auto;
   }
+  /* Features you will love & enjoy */
+  .love-features-card {
+    flex-direction: column;
+  }
+  .love-features-card-image {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .ten-years-badge {
+    position: static;
+    margin: auto;
+  }
 }
 
 /* laptop and desktop */
-@media screen and (min-width: 992px) and (max-width: 12   px) {
+@media screen and (min-width: 992px) and (max-width: 1220px) {
   nav {
     flex-direction: column;
     padding: 0 1rem;
@@ -402,5 +426,28 @@ main {
     padding: 20px;
     width: 50%;
     margin: auto;
+  }
+  /* Features you will love & enjoy */
+  .love-features-card {
+    flex-direction: column;
+  }
+  .love-features-card-image {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .ten-years-badge {
+    position: static;
+    margin: auto;
+  }
+}
+
+/* large device  */
+@media screen and (min-width: 1220px) and (max-width: 1400px) {
+  .love-features-card-image {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .ten-years-badge {
+    position: static;
   }
 }
