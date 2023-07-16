@@ -253,6 +253,22 @@ main {
 
 /* main section ends  */
 
+/* footer section  */
+footer {
+  max-width: 90rem;
+  padding: 8rem 0;
+  margin: auto;
+}
+
+.footer-container {
+  text-align: center;
+  max-height: 6.25rem;
+  border-radius: 0.5rem;
+  background: #fff4e7;
+  margin: auto;
+  padding: 3rem 26rem;
+}
+
 /* Responsive codes  */
 
 /* Mobile  */
@@ -323,6 +339,19 @@ main {
     position: static;
     margin: auto;
   }
+  /* footer  */
+  footer {
+    padding: 0;
+    margin: auto;
+  }
+  .footer-container {
+    text-align: center;
+    max-height: 6.25rem;
+    border-radius: 0.5rem;
+    background: #fff4e7;
+    margin: auto;
+    padding: 3rem 0rem;
+  }
 }
 
 /* tablet */
@@ -382,6 +411,19 @@ main {
     position: static;
     margin: auto;
   }
+  /* footer  */
+  footer {
+    padding: 0;
+    margin: auto;
+  }
+  .footer-container {
+    text-align: center;
+    max-height: 6.25rem;
+    border-radius: 0.5rem;
+    background: #fff4e7;
+    margin: auto;
+    padding: 3rem 0rem;
+  }
 }
 
 /* laptop and desktop */
@@ -438,6 +480,19 @@ main {
   .ten-years-badge {
     position: static;
     margin: auto;
+  }
+  /* footer  */
+  footer {
+    padding: 0;
+    margin: auto;
+  }
+  .footer-container {
+    text-align: center;
+    max-height: 6.25rem;
+    border-radius: 0.5rem;
+    background: #fff4e7;
+    margin: auto;
+    padding: 3rem 0rem;
   }
 }
 
